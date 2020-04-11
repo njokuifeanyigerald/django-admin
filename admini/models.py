@@ -9,6 +9,7 @@ class Company(models.Model):
 
     def __str__(self):
         return self.title
+        
 # class Note(models.Model):
 #     subject =  models.CharField(max_length=100)
 #     topic = models.CharField(max_length=100)
